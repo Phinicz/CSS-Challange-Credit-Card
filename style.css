@@ -1,0 +1,113 @@
+html{
+  font-family: 'Roboto', serif;
+  color: black;
+  weight: 100;
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+}
+h4{
+  margin: 0px;
+}
+
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+.main-content{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.left-section{
+  width: 35vw;
+  height: 100vh;
+  background: linear-gradient(#e66465, #9198e5); 
+  display: inline-block;
+  position: absolute;
+  z-index:-1;
+  
+}
+.right-section{
+  width: 65vw;
+  height: 100vh;
+  display: inline-block;
+  position: absolute;
+  left: 35vw;
+  z-index: -1;
+  overflow:hidden;
+  
+}
+
+.card-info{
+  position: relative;
+  left: 55vw;
+  top: 250px;
+  overflow:hidden;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 15px
+  
+}
+
+input{
+/*   background-color: green; */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+button{
+  display: block;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  font-size: .8rem;
+  background-color: black;
+}
+button:hover{
+  
+}
+.cvc, .exp{
+  display: inline-block;
+  position: relative;
+}
+.cvc{
+  left: -30px;
+}
+.exp-input, .cvc-input{
+  display: inline-block;
+  position: relative;
+  width: 20%;
+}
+.cvc-input{
+  top:-10px;
+  left:160px;
+  width: 100px;
+}
+.exp-input{
+  top: 30px;
+  left: -75px;
+}
+
+.card-front, .card-back{
+  position: absolute;
+  width: 30vw;
+  height: 20vh;
+}
+
+.card-front{
+  background-color: green;
+  left: 15%;
+  top: 30%;
+  
+}
+
+.card-back{
+  background-color: green;
+  top: 55%;
+  left: 20%;
+}
+
